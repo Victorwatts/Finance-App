@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PROG6212-POE", "PROG6212-POE\PROG6212-POE.csproj", "{D889D666-19D7-4FE9-B071-1110F3D8DED2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51C1E03A-8E34-4403-BAB9-246D7A3F0F85} = {51C1E03A-8E34-4403-BAB9-246D7A3F0F85}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{51C1E03A-8E34-4403-BAB9-246D7A3F0F85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D889D666-19D7-4FE9-B071-1110F3D8DED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D889D666-19D7-4FE9-B071-1110F3D8DED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D889D666-19D7-4FE9-B071-1110F3D8DED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D889D666-19D7-4FE9-B071-1110F3D8DED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C1E03A-8E34-4403-BAB9-246D7A3F0F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C1E03A-8E34-4403-BAB9-246D7A3F0F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C1E03A-8E34-4403-BAB9-246D7A3F0F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C1E03A-8E34-4403-BAB9-246D7A3F0F85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54271D5D-8CEF-45F4-9B68-24EED080AA59}
+	EndGlobalSection
+EndGlobal
